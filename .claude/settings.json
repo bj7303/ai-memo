@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(**/.env)",
+      "Read(**/.env.*)",
+      "Read(**/.env_local)",
+      "Read(**/*secret*)",
+      "Read(**/*credential*)",
+      "Read(**/*.pem)",
+      "Read(**/*.key)",
+      "Edit(**/.env)",
+      "Edit(**/.env.*)",
+      "Edit(**/.env_local)",
+      "Edit(**/*secret*)",
+      "Edit(**/*credential*)",
+      "Edit(**/*.pem)",
+      "Edit(**/*.key)",
+      "Bash(cat *.env*)",
+      "Bash(cat *secret*)",
+      "Bash(cat *credential*)",
+      "Bash(type *.env*)",
+      "Bash(type *secret*)",
+      "Bash(type *credential*)",
+      "Bash(grep * *.env*)",
+      "Bash(rg * *.env*)",
+      "PowerShell(Get-Content *.env*)",
+      "PowerShell(Get-Content *secret*)",
+      "PowerShell(Get-Content *credential*)",
+      "PowerShell(Select-String * *.env*)"
+    ]
+  }
+}
